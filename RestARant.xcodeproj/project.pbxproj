@@ -1,0 +1,752 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A389AF3FBE0675960AB8C83 /* Pods_RestARantUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2516866940669E5543D8D24 /* Pods_RestARantUITests.framework */; };
+		C026379AEFED8B6EBDE2A8E9 /* Pods_RestARantTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 270639D35F158B59E25DFDB1 /* Pods_RestARantTests.framework */; };
+		CEFFCC02DB83739A7AB7290A /* Pods_RestARant.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0234BFD80BE58BF382F7689 /* Pods_RestARant.framework */; };
+		D00CE10A217248D1006D7DCA /* USDA.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00CE109217248D1006D7DCA /* USDA.swift */; };
+		D03934CB2171D9AD00648551 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03934CA2171D9AD00648551 /* Information.swift */; };
+		D0D4536421719F9600B1578F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4536321719F9600B1578F /* AppDelegate.swift */; };
+		D0D4536621719F9600B1578F /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D4536521719F9600B1578F /* art.scnassets */; };
+		D0D4536821719F9600B1578F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4536721719F9600B1578F /* ViewController.swift */; };
+		D0D4536B21719F9600B1578F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D4536921719F9600B1578F /* Main.storyboard */; };
+		D0D4536D21719F9700B1578F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D4536C21719F9700B1578F /* Assets.xcassets */; };
+		D0D4537021719F9700B1578F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0D4536E21719F9700B1578F /* LaunchScreen.storyboard */; };
+		D0D4537B21719F9800B1578F /* RestARantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4537A21719F9800B1578F /* RestARantTests.swift */; };
+		D0D4538621719F9800B1578F /* RestARantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D4538521719F9800B1578F /* RestARantUITests.swift */; };
+		D0D453942171A0F100B1578F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0D453932171A0F100B1578F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0D4537721719F9800B1578F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D4535821719F9600B1578F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D4535F21719F9600B1578F;
+			remoteInfo = RestARant;
+		};
+		D0D4538221719F9800B1578F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0D4535821719F9600B1578F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0D4535F21719F9600B1578F;
+			remoteInfo = RestARant;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		057AC2BB888EFCD9A88EEC25 /* Pods-RestARantUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestARantUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestARantUITests/Pods-RestARantUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		270639D35F158B59E25DFDB1 /* Pods_RestARantTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestARantTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		482133D7F1869A9A7AA22369 /* Pods-RestARant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestARant.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestARant/Pods-RestARant.debug.xcconfig"; sourceTree = "<group>"; };
+		486B602BC9A4D3E473A91DAD /* Pods-RestARantUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestARantUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestARantUITests/Pods-RestARantUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA43B0D884C9D3E6FAED5AB6 /* Pods-RestARant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestARant.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestARant/Pods-RestARant.release.xcconfig"; sourceTree = "<group>"; };
+		ABD193C6ACA31E4BB7B4B88F /* Pods-RestARantTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestARantTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestARantTests/Pods-RestARantTests.release.xcconfig"; sourceTree = "<group>"; };
+		B0234BFD80BE58BF382F7689 /* Pods_RestARant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestARant.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00CE109217248D1006D7DCA /* USDA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USDA.swift; sourceTree = "<group>"; };
+		D03934CA2171D9AD00648551 /* Information.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		D0D4536021719F9600B1578F /* RestARant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestARant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D4536321719F9600B1578F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0D4536521719F9600B1578F /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		D0D4536721719F9600B1578F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0D4536A21719F9600B1578F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0D4536C21719F9700B1578F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0D4536F21719F9700B1578F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0D4537121719F9700B1578F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D4537621719F9800B1578F /* RestARantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestARantTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D4537A21719F9800B1578F /* RestARantTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestARantTests.swift; sourceTree = "<group>"; };
+		D0D4537C21719F9800B1578F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D4538121719F9800B1578F /* RestARantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestARantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0D4538521719F9800B1578F /* RestARantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestARantUITests.swift; sourceTree = "<group>"; };
+		D0D4538721719F9800B1578F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0D453932171A0F100B1578F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E2516866940669E5543D8D24 /* Pods_RestARantUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestARantUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAD6A2C0775982F7FBA6F7D3 /* Pods-RestARantTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestARantTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestARantTests/Pods-RestARantTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0D4535D21719F9600B1578F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFFCC02DB83739A7AB7290A /* Pods_RestARant.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D4537321719F9800B1578F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C026379AEFED8B6EBDE2A8E9 /* Pods_RestARantTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D4537E21719F9800B1578F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A389AF3FBE0675960AB8C83 /* Pods_RestARantUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291D08D43DBF2E69C86F5C52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				482133D7F1869A9A7AA22369 /* Pods-RestARant.debug.xcconfig */,
+				AA43B0D884C9D3E6FAED5AB6 /* Pods-RestARant.release.xcconfig */,
+				EAD6A2C0775982F7FBA6F7D3 /* Pods-RestARantTests.debug.xcconfig */,
+				ABD193C6ACA31E4BB7B4B88F /* Pods-RestARantTests.release.xcconfig */,
+				057AC2BB888EFCD9A88EEC25 /* Pods-RestARantUITests.debug.xcconfig */,
+				486B602BC9A4D3E473A91DAD /* Pods-RestARantUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F7DA6A0815A6F6045333DAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0234BFD80BE58BF382F7689 /* Pods_RestARant.framework */,
+				270639D35F158B59E25DFDB1 /* Pods_RestARantTests.framework */,
+				E2516866940669E5543D8D24 /* Pods_RestARantUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0D4535721719F9600B1578F = {
+			isa = PBXGroup;
+			children = (
+				D0D4536221719F9600B1578F /* RestARant */,
+				D0D4537921719F9800B1578F /* RestARantTests */,
+				D0D4538421719F9800B1578F /* RestARantUITests */,
+				D0D4536121719F9600B1578F /* Products */,
+				D0D453932171A0F100B1578F /* GoogleService-Info.plist */,
+				291D08D43DBF2E69C86F5C52 /* Pods */,
+				5F7DA6A0815A6F6045333DAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D0D4536121719F9600B1578F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4536021719F9600B1578F /* RestARant.app */,
+				D0D4537621719F9800B1578F /* RestARantTests.xctest */,
+				D0D4538121719F9800B1578F /* RestARantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0D4536221719F9600B1578F /* RestARant */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4536321719F9600B1578F /* AppDelegate.swift */,
+				D0D4536521719F9600B1578F /* art.scnassets */,
+				D0D4536721719F9600B1578F /* ViewController.swift */,
+				D0D4536921719F9600B1578F /* Main.storyboard */,
+				D0D4536C21719F9700B1578F /* Assets.xcassets */,
+				D0D4536E21719F9700B1578F /* LaunchScreen.storyboard */,
+				D0D4537121719F9700B1578F /* Info.plist */,
+				D03934CA2171D9AD00648551 /* Information.swift */,
+				D00CE109217248D1006D7DCA /* USDA.swift */,
+			);
+			path = RestARant;
+			sourceTree = "<group>";
+		};
+		D0D4537921719F9800B1578F /* RestARantTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4537A21719F9800B1578F /* RestARantTests.swift */,
+				D0D4537C21719F9800B1578F /* Info.plist */,
+			);
+			path = RestARantTests;
+			sourceTree = "<group>";
+		};
+		D0D4538421719F9800B1578F /* RestARantUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0D4538521719F9800B1578F /* RestARantUITests.swift */,
+				D0D4538721719F9800B1578F /* Info.plist */,
+			);
+			path = RestARantUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0D4535F21719F9600B1578F /* RestARant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D4538A21719F9800B1578F /* Build configuration list for PBXNativeTarget "RestARant" */;
+			buildPhases = (
+				9766FA0457AA1BCAFB3491D1 /* [CP] Check Pods Manifest.lock */,
+				D0D4535C21719F9600B1578F /* Sources */,
+				D0D4535D21719F9600B1578F /* Frameworks */,
+				D0D4535E21719F9600B1578F /* Resources */,
+				B2545488B495BBEE622E0E88 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestARant;
+			productName = RestARant;
+			productReference = D0D4536021719F9600B1578F /* RestARant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0D4537521719F9800B1578F /* RestARantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D4538D21719F9800B1578F /* Build configuration list for PBXNativeTarget "RestARantTests" */;
+			buildPhases = (
+				4800716DB08E455D72E735BC /* [CP] Check Pods Manifest.lock */,
+				D0D4537221719F9800B1578F /* Sources */,
+				D0D4537321719F9800B1578F /* Frameworks */,
+				D0D4537421719F9800B1578F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D4537821719F9800B1578F /* PBXTargetDependency */,
+			);
+			name = RestARantTests;
+			productName = RestARantTests;
+			productReference = D0D4537621719F9800B1578F /* RestARantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0D4538021719F9800B1578F /* RestARantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0D4539021719F9800B1578F /* Build configuration list for PBXNativeTarget "RestARantUITests" */;
+			buildPhases = (
+				712A336FB165DE38C46F4B25 /* [CP] Check Pods Manifest.lock */,
+				D0D4537D21719F9800B1578F /* Sources */,
+				D0D4537E21719F9800B1578F /* Frameworks */,
+				D0D4537F21719F9800B1578F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0D4538321719F9800B1578F /* PBXTargetDependency */,
+			);
+			name = RestARantUITests;
+			productName = RestARantUITests;
+			productReference = D0D4538121719F9800B1578F /* RestARantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0D4535821719F9600B1578F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Maxwell Hubbard";
+				TargetAttributes = {
+					D0D4535F21719F9600B1578F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					D0D4537521719F9800B1578F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D0D4535F21719F9600B1578F;
+					};
+					D0D4538021719F9800B1578F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = D0D4535F21719F9600B1578F;
+					};
+				};
+			};
+			buildConfigurationList = D0D4535B21719F9600B1578F /* Build configuration list for PBXProject "RestARant" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0D4535721719F9600B1578F;
+			productRefGroup = D0D4536121719F9600B1578F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0D4535F21719F9600B1578F /* RestARant */,
+				D0D4537521719F9800B1578F /* RestARantTests */,
+				D0D4538021719F9800B1578F /* RestARantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0D4535E21719F9600B1578F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4536621719F9600B1578F /* art.scnassets in Resources */,
+				D0D4537021719F9700B1578F /* LaunchScreen.storyboard in Resources */,
+				D0D453942171A0F100B1578F /* GoogleService-Info.plist in Resources */,
+				D0D4536D21719F9700B1578F /* Assets.xcassets in Resources */,
+				D0D4536B21719F9600B1578F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D4537421719F9800B1578F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D4537F21719F9800B1578F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4800716DB08E455D72E735BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestARantTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		712A336FB165DE38C46F4B25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestARantUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9766FA0457AA1BCAFB3491D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestARant-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2545488B495BBEE622E0E88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RestARant/Pods-RestARant-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestARant/Pods-RestARant-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0D4535C21719F9600B1578F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03934CB2171D9AD00648551 /* Information.swift in Sources */,
+				D0D4536821719F9600B1578F /* ViewController.swift in Sources */,
+				D00CE10A217248D1006D7DCA /* USDA.swift in Sources */,
+				D0D4536421719F9600B1578F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D4537221719F9800B1578F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4537B21719F9800B1578F /* RestARantTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D4537D21719F9800B1578F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0D4538621719F9800B1578F /* RestARantUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0D4537821719F9800B1578F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D4535F21719F9600B1578F /* RestARant */;
+			targetProxy = D0D4537721719F9800B1578F /* PBXContainerItemProxy */;
+		};
+		D0D4538321719F9800B1578F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0D4535F21719F9600B1578F /* RestARant */;
+			targetProxy = D0D4538221719F9800B1578F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0D4536921719F9600B1578F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D4536A21719F9600B1578F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0D4536E21719F9700B1578F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D4536F21719F9700B1578F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0D4538821719F9800B1578F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0D4538921719F9800B1578F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0D4538B21719F9800B1578F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 482133D7F1869A9A7AA22369 /* Pods-RestARant.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N252H9C76;
+				INFOPLIST_FILE = RestARant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxwell.hubbard.RestARant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0D4538C21719F9800B1578F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA43B0D884C9D3E6FAED5AB6 /* Pods-RestARant.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N252H9C76;
+				INFOPLIST_FILE = RestARant/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxwell.hubbard.RestARant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0D4538E21719F9800B1578F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAD6A2C0775982F7FBA6F7D3 /* Pods-RestARantTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N252H9C76;
+				INFOPLIST_FILE = RestARantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxwell.hubbard.RestARantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestARant.app/RestARant";
+			};
+			name = Debug;
+		};
+		D0D4538F21719F9800B1578F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD193C6ACA31E4BB7B4B88F /* Pods-RestARantTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N252H9C76;
+				INFOPLIST_FILE = RestARantTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxwell.hubbard.RestARantTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestARant.app/RestARant";
+			};
+			name = Release;
+		};
+		D0D4539121719F9800B1578F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 057AC2BB888EFCD9A88EEC25 /* Pods-RestARantUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N252H9C76;
+				INFOPLIST_FILE = RestARantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxwell.hubbard.RestARantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestARant;
+			};
+			name = Debug;
+		};
+		D0D4539221719F9800B1578F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 486B602BC9A4D3E473A91DAD /* Pods-RestARantUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4N252H9C76;
+				INFOPLIST_FILE = RestARantUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxwell.hubbard.RestARantUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RestARant;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0D4535B21719F9600B1578F /* Build configuration list for PBXProject "RestARant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D4538821719F9800B1578F /* Debug */,
+				D0D4538921719F9800B1578F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D4538A21719F9800B1578F /* Build configuration list for PBXNativeTarget "RestARant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D4538B21719F9800B1578F /* Debug */,
+				D0D4538C21719F9800B1578F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D4538D21719F9800B1578F /* Build configuration list for PBXNativeTarget "RestARantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D4538E21719F9800B1578F /* Debug */,
+				D0D4538F21719F9800B1578F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0D4539021719F9800B1578F /* Build configuration list for PBXNativeTarget "RestARantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0D4539121719F9800B1578F /* Debug */,
+				D0D4539221719F9800B1578F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0D4535821719F9600B1578F /* Project object */;
+}
