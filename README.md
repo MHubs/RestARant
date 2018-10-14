@@ -1,7 +1,7 @@
 # RestARant
 
-<img src="" align="right"
-     title="RestARant Logo" width="120" height="178">
+<img src="RestARant.png" align="right"
+     title="RestARant Logo" width="168" height="168">
 
 RestARant is an up and coming mobile app that uses Augmented Reality to change the way you see food!
 
