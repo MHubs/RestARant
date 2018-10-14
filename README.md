@@ -58,6 +58,7 @@ or smaller! Or even just drag the dish around!
 
 * [CGTrader](cgtrader.com) for some of the awesome example food models
 * [Blender](blender.org) for confirming how bad I am at making 3D Models
+* [Paint.NET](https://www.getpaint.net) for helping me design the logo
 * [United States Department of Agriculture](https://ndb.nal.usda.gov/ndb/search/list) (USDA) for a wonder nutritional database
 * [Welch's fruit snacks](http://welchsfruitsnacks.com) for keeping me alive for 36 hours
 * And of course, [Hack UMass VI](https://hackumass.com)
