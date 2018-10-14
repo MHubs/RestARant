@@ -3,7 +3,7 @@
 <img src="RestARant.png" align="right"
      title="RestARant Logo" width="168" height="168">
 
-RestARant is an up and coming mobile app that uses Augmented Reality to change the way you see food!
+RestARant is an up and coming mobile app that uses Augmented Reality to change the way you sea food!
 
 Supported restaurants will place QR codes on their menu. RestARant will display them on your table before you even order
 so you can see exactly what you're ordering! 
