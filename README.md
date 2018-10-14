@@ -40,7 +40,7 @@ to find nutritional value and ingredients. All of this information is then displ
 Simply open the application and make sure the QR code you wish to read is in view. The app will automatically
 read it and display the dish!
 
-By default, the app displays the ingredients of the dish. To display nutritional information, simply tap the "Nutrition" button.
+By default, the app displays the ingredients of the dish. To display nutritional information, simply tap the "Nutrients" button.
 
 Rotate the dish by using rotating two fingers in a circular motion on the screen. Pinch the screen to make the dish bigger
 or smaller!
