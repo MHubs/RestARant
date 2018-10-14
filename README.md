@@ -37,6 +37,10 @@ to find nutritional value and ingredients. All of this information is then displ
 
 ## Usage
 
+### Video
+
+[![](https://img.youtube.com/vi/qfuMg9_mulA/0.jpg)](https://www.youtube.com/watch?v=qfuMg9_mulA "Click to play on YouTube")
+
 Simply open the application and make sure the QR code you wish to read is in view. The app will automatically
 read it and display the dish!
 
