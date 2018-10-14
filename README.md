@@ -48,7 +48,7 @@ or smaller!
 
 ## Developer
 
-* Maxwell Hubbard
+* [Maxwell Hubbard](https://mhubs.github.io)
 
 ## Acknowledgements
 
